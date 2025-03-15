@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  /* Your theme customizations */
+  --font-sans: "Inter", system-ui, sans-serif;
+  --color-primary: oklch(0.7 0.28 145);
+}
+
+@layer base {
+  body {
+    @apply bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-white;
+  }
+}
