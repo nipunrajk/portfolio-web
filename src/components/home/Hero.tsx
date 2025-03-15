@@ -10,7 +10,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className='min-h-screen flex flex-col justify-center px-6 relative'>
+    <section className='min-h-screen  px-6 relative z-0'>
       {/* Optional background gradient */}
       <div className='absolute -z-10 top-1/4 left-1/4 w-1/2 h-1/2 bg-gradient-start/20 rounded-full blur-[120px]' />
 
@@ -21,20 +21,20 @@ const Hero = () => {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
           }`}
         >
-          <p className='text-white/80 text-xl mb-4'>Hey, I'm</p>
+          <p className='text-white text-base font-light mb-4'>Hey, I'm</p>
 
           {/* Name with gradient */}
-          <h1 className='text-6xl md:text-7xl font-bold mb-6 gradient-text'>
+          <h1 className='font-gt-walsheim text-8xl font-medium mb-6 hero-text'>
             Nipun Raj
           </h1>
 
           {/* Professional title */}
-          <h2 className='text-3xl md:text-4xl font-medium mb-6'>
+          {/* <h2 className='text-3xl md:text-4xl font-medium mb-6'>
             A Software Engineer
-          </h2>
+          </h2> */}
 
           {/* Brief bio */}
-          <p className='text-white/80 text-lg max-w-6xl mb-8 leading-relaxed'>
+          <p className='text-zinc-100 text-lg font-light leading-6 text-justify  max-w-6xl mb-10'>
             I'm a software engineer based in [Your Location]. I enjoy creating
             things that live on the internet, whether that be websites,
             applications, or anything in between. I've been freelancing for a

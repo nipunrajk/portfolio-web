@@ -10,7 +10,8 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <div className='min-h-screen bg-black text-white'>
       <Header />
-      <main className='pt-20'>{children}</main>
+      {/* need to address the header height */}
+      <main className='pt-56'>{children}</main>
       {/* <Footer /> */}
     </div>
   );
