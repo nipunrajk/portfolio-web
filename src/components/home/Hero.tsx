@@ -10,7 +10,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className='min-h-screen  px-6 relative z-0'>
+    <section className='px-6 relative z-0'>
       {/* Optional background gradient */}
       <div className='absolute -z-10 top-1/4 left-1/4 w-1/2 h-1/2 bg-gradient-start/20 rounded-full blur-[120px]' />
 
