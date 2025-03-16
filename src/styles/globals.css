@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
 @font-face {
@@ -12,6 +13,7 @@
 @theme {
   --font-sans: "Inter", system-ui, sans-serif;
   --font-gt-walsheim: "GT-Walsheim-Pro", "sans-serif";
+  --font-raleway: "Raleway", sans-serif;
   --color-primary: oklch(0.7 0.28 145);
 }
 
