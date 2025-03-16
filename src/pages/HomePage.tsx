@@ -5,7 +5,7 @@ import TechStack from "../components/home/TechStack";
 // import About from '../components/home/About';
 // import Projects from '../components/home/Projects';
 // import Skills from '../components/home/Skills';
-// import Contact from '../components/home/Contact';
+import Contact from "../components/home/Contact";
 
 const HomePage = () => {
   return (
@@ -16,8 +16,8 @@ const HomePage = () => {
       {/* Include other sections as you build them */}
       {/* <About />
       <Projects />
-      <Skills />
-      <Contact /> */}
+      <Skills />*/}
+      <Contact />
     </div>
   );
 };
