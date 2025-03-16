@@ -9,10 +9,10 @@ interface Job {
 const Experience = () => {
   const jobs: Job[] = [
     {
-      title: "Frontend Engineer (Remote)",
-      company: "Selfbook",
-      location: "US - New York",
-      period: "Jul 2021 - Present",
+      title: "Software Engineer (Hybrid)",
+      company: "CookieYes",
+      location: "Calicut, Kerala",
+      period: "Nov 2022 - Present",
       responsibilities: [
         "Developing screens and UI components for the web application using React and Tailwind.",
         "Fixing UI issues and integrating backend APIs with Redux Saga.",
