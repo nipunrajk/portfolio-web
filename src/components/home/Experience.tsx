@@ -52,7 +52,7 @@ const Experience = () => {
             ))}
           </div>
         </div>
-        <div className='w-full  border-[0.6px] border-neutral-300' />
+        {/* <div className='w-full  border-[0.6px] border-neutral-300' /> */}
       </div>
     </section>
   );
