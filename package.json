@@ -2,7 +2,7 @@
   "name": "portfolio-web",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://nipunrajk.github.io/portfolio-web",
+  "homepage": "https://nipunrajk.github.io/portfolio-web/",
   "type": "module",
   "scripts": {
     "dev": "vite",
